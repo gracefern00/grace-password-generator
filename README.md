@@ -33,6 +33,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Starter Code
 Guidance from class instructors Sean King and Steven Green
+Youtube Videos:
+https://www.youtube.com/watch?v=W6NZfCO5SIk
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
