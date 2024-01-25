@@ -8,6 +8,7 @@ function writePassword() {
 
   passwordText.value = password;
 
+  return: password;
 }
 
 // Character Arrays (4)
@@ -42,6 +43,11 @@ var randomCharacter = Math.floor(Math.random()*26)
 if (isUppercase) {
 var randomCharacter = Math.floor(Math.random()*26)
   finalPass.push(uppercase[randomCharacter])
+}
+
+for (var i = 0; i < length; i++) {
+  var random = Math.floor(Math.random() * Math.floor(allCharacters.length));
+  password+= allCharacters[random];
 }
 
 // Add event listener to generate button
